@@ -1,0 +1,22 @@
+pipleine{
+  agent any{
+    stages{
+      stage('Build'){
+          steps{
+          echo 'Building Project Hello World !'
+               }
+             }
+      stage('Test'){
+        steps{
+        echo 'Testing Project Hello World'
+             }
+            }
+       stage(){
+       steps{
+       echo 'Deploying Hello World'
+            }
+           }
+           
+           }
+           }
+          }
